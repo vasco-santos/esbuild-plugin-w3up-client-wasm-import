@@ -22,7 +22,7 @@ await build({
   format: 'esm',
   outfile: path.join(__dirname, 'dist', 'worker.js'),
   plugins: [
-    esbuildPluginW3up
+    esbuildPluginW3up()
   ]
 }
 ```

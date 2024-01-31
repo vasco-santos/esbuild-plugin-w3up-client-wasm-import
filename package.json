@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-plugin-w3up-client-wasm-import",
+  "version": "0.0.0",
+  "description": "Alias w3up wasm dependencies to be imported",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "standard",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "author": "Vasco Santos <santos.vasco10@gmail.com>",
+  "license": "MIT"
+}

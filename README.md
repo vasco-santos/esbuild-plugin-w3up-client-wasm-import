@@ -2,7 +2,7 @@
 
 > Alias w3up wasm dependencies to be imported
 
-Some environments (for instance Cloudflare Workers) require wasm bytecode to be imported. All other paths to load wasmm are disallowed by embedder. This plugin makes `w3up-client` dependencies using wasm to rely on imports by default.
+Some environments (for instance Cloudflare Workers) require wasm bytecode to be imported. All other paths to load wasm are disallowed by embedder. This plugin makes `w3up-client` dependencies using wasm to rely on imports by default.
 
 ## Install
 
